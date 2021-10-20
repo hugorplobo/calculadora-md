@@ -1,0 +1,28 @@
+.mainContent {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    max-width: 70%;
+    margin: 2em;
+    align-self: start;
+    margin-bottom: 2em;
+}
+
+.buttons {
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    gap: 1.5em;
+}
+
+h1 {
+    margin-bottom: .2em;
+}
+
+.sentences {
+    max-width: 70%;
+    margin: 2em auto;
+}
