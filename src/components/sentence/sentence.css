@@ -1,0 +1,23 @@
+.sentence {
+    color: var(--light);
+    padding: 1em 2em;
+    background-color: var(--blue);
+    margin-bottom: 1em;
+    border-radius: .3em;
+    cursor: pointer;
+    display: block;
+    transition: all .2s;
+    font-weight: 500;
+    align-self: center;
+    min-width: 100%;
+}
+
+.sentence input {
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.sentence:hover {
+    background-color: var(--red);
+    color: var(--dark);
+}
