@@ -1,0 +1,15 @@
+.calculate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.calculate .result {
+    text-align: center;
+}
+
+.calculate .title {
+    text-align: center;
+}
