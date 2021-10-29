@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-.title {
+.mainContent .title {
     max-width: 70%;
     margin: 2em;
     align-self: start;

@@ -1,0 +1,30 @@
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.score a {
+    margin-top: 5em;
+}
+
+.score input {
+    background-color: var(--blue);
+    border: none;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: .1em;
+    padding: .5em 2em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
