@@ -2,7 +2,7 @@ import { SideMenuField } from "../sideMenuField/sideMenuField";
 import "./sideMenu.css";
 
 export function SideMenu({ labels }) {
-    const urls = ["/", "/instructions", "/technique", "/variablesSpecification", "/variablesUse", "/hypotheses", "/definitions", "/justifiedAfirmations", "/validArguments", "/teste", "/calculate"];
+    const urls = ["/", "/score", "/instructions", "/technique", "/variablesSpecification", "/variablesUse", "/hypotheses", "/definitions", "/justifiedAfirmations", "/validArguments", "/conclusion", "/calculate"];
 
     return (
         <div className="sideMenu">
