@@ -3,8 +3,8 @@ import { ContentPage } from "../contentPage/contentPage";
 export function Conclusions() {
     const labels = [
         {label: "As conclusões necessárias foram alcançadas corretamente", value: 0.1, alternative: "a"},
-        {label: "As conclusões necessárias foram alcançadas corretamente", value: 0.05, alternative: "b"},
-        {label: " As conclusões necessárias não foram alcançadas ou foram mencionadas sem conexão com a argumentação", value: 0, alternative: "c"}
+        {label: "As conclusões necessárias foram alcançadas, porém elas não foram demonstradas para todos os casos do enunciado.", value: 0.05, alternative: "b"},
+        {label: "As conclusões necessárias não foram alcançadas ou foram mencionadas sem conexão com a argumentação", value: 0, alternative: "c"}
     ];
 
     return (
